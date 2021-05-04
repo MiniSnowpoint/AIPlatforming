@@ -1,0 +1,23 @@
+{
+    "FFormAgent": {
+        "checkpoints": [
+            {
+                "steps": 2106,
+                "file_path": "results\\rfrun5\\FFormAgent\\FFormAgent-2106.onnx",
+                "reward": -40.04237604141235,
+                "creation_time": 1619809722.527219
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2106,
+            "file_path": "results\\rfrun5\\FFormAgent.onnx",
+            "reward": -40.04237604141235,
+            "creation_time": 1619809722.527219
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

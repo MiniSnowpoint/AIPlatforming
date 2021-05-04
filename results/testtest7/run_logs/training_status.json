@@ -1,0 +1,29 @@
+{
+    "AgentMove": {
+        "checkpoints": [
+            {
+                "steps": 499974,
+                "file_path": "results\\testtest7\\AgentMove\\AgentMove-499974.onnx",
+                "reward": 34.89795918367347,
+                "creation_time": 1618442613.3097768
+            },
+            {
+                "steps": 500230,
+                "file_path": "results\\testtest7\\AgentMove\\AgentMove-500230.onnx",
+                "reward": 34.89795918367347,
+                "creation_time": 1618442613.3967793
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500230,
+            "file_path": "results\\testtest7\\AgentMove.onnx",
+            "reward": 34.89795918367347,
+            "creation_time": 1618442613.3967793
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

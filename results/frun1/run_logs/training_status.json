@@ -1,0 +1,29 @@
+{
+    "FFormAgent": {
+        "checkpoints": [
+            {
+                "steps": 499986,
+                "file_path": "results\\frun1\\FFormAgent\\FFormAgent-499986.onnx",
+                "reward": -40.05472475623116,
+                "creation_time": 1619799110.8157575
+            },
+            {
+                "steps": 500131,
+                "file_path": "results\\frun1\\FFormAgent\\FFormAgent-500131.onnx",
+                "reward": -40.054687974464834,
+                "creation_time": 1619799110.967757
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500131,
+            "file_path": "results\\frun1\\FFormAgent.onnx",
+            "reward": -40.054687974464834,
+            "creation_time": 1619799110.967757
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

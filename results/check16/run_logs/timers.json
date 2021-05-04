@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1619558927",
+        "python_version": "3.8.9 (tags/v3.8.9:a743f81, Apr  2 2021, 11:10:41) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\dosso\\ProjectMain\\venv\\Scripts\\mlagents-learn config/MoveAgent.yaml --initialize-from=check12 --run-id=check16",
+        "mlagents_version": "0.25.0",
+        "mlagents_envs_version": "0.25.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1+cu102",
+        "numpy_version": "1.20.2",
+        "end_time_seconds": "1619558934"
+    },
+    "total": 6.9712713,
+    "count": 1,
+    "self": 0.007106099999999671,
+    "children": {
+        "run_training.setup": {
+            "total": 0.13052199999999992,
+            "count": 1,
+            "self": 0.13052199999999992
+        },
+        "TrainerController.start_learning": {
+            "total": 6.8336432,
+            "count": 1,
+            "self": 0.00012879999999881875,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 6.585686000000001,
+                    "count": 1,
+                    "self": 6.585686000000001
+                },
+                "TrainerController._save_models": {
+                    "total": 0.2478284000000004,
+                    "count": 1,
+                    "self": 0.007994300000000898,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.2398340999999995,
+                            "count": 1,
+                            "self": 0.2398340999999995
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

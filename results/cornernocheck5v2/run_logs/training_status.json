@@ -1,0 +1,23 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 90032,
+                "file_path": "results\\cornernocheck5v2\\My Behavior\\My Behavior-90032.onnx",
+                "reward": 305.45454545454544,
+                "creation_time": 1619639028.307853
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 90032,
+            "file_path": "results\\cornernocheck5v2\\My Behavior.onnx",
+            "reward": 305.45454545454544,
+            "creation_time": 1619639028.307853
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

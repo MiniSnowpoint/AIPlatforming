@@ -1,0 +1,23 @@
+{
+    "AgentMove": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\check5\\AgentMove\\AgentMove-0.onnx",
+                "reward": null,
+                "creation_time": 1619549416.754443
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\check5\\AgentMove.onnx",
+            "reward": null,
+            "creation_time": 1619549416.754443
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

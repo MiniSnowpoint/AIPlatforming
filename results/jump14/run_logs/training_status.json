@@ -1,0 +1,23 @@
+{
+    "JumpAgent": {
+        "checkpoints": [
+            {
+                "steps": 488536,
+                "file_path": "results\\jump14\\JumpAgent\\JumpAgent-488536.onnx",
+                "reward": 0.0,
+                "creation_time": 1619736146.8946977
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 488536,
+            "file_path": "results\\jump14\\JumpAgent.onnx",
+            "reward": 0.0,
+            "creation_time": 1619736146.8946977
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}
